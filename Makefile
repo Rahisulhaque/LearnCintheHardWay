@@ -1,3 +1,3 @@
-CFLAGS = -WALL -g
+CFLAGS = -Wall -g
 clean:
 	rm -f ex1
