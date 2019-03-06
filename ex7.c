@@ -6,7 +6,7 @@
 /*   By: rahisulhaque <rahisul@icloud.com>              / ___/ __ `/ __ \/ / ___/ / / / /    */
 /*                                                     / /  / /_/ / / / / (__  ) /_/ / /     */
 /*   Created: 2019/03/05 12:33:41 by rahisulhaque     /_/   \__,_/_/ /_/_/____/___,_/_/      */
-/*   Updated: 2019/03/05 13:39:00 by rahisulhaque                                            */
+/*   Updated: 2019/03/05 22:30:45 by rahisulhaque                                            */
 /*                                                                                           */
 /* ***************************************************************************************** */
 
@@ -28,7 +28,16 @@ int 		main()
 	printf("My fisrt name is %s.\n", first_name);
 	printf("My last name is %s.\n",  last_name);
 	printf("My whole name is %s %s or %c. %s.\n", first_name, last_name, initial, last_name);
+ 	
+	int bugs = 100;
+	double bug_rate = 1.2;
 	
+	printf("You have %d  bugs at the imaginary rate of %f.\n", bugs, bug_rate);
+	
+	long universe_of_defect = 1L * 1024L * 1024L * 1024L;
+	printf("The entire universe has %ld bugs.\n", universe_of_defect);
+
+		
 	
 	return(0);
 }
